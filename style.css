@@ -1,0 +1,28 @@
+#containe {
+  text-align: center;
+}
+#titulo {
+  font-weight: bold;
+  font-size: 60px;
+  color: blue;
+}
+#containeTenpo {
+  display: flex;
+  margin: auto;
+  font-size: 70px;
+  font-weight: bold;
+}
+.btn {
+  color: beige;
+  background-color: blue;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+}
+#continua {
+  display: none;
+}
+#resete {
+  background-color: rgb(179, 169, 169);
+  color: black;
+}

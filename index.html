@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cronometro</title>
+  </head>
+  <body>
+    <div id="containe">
+      <header>
+        <h1 id="titulo">Cronômetro.js</h1>
+      </header>
+      <main id="containeTenpo">
+        <div id="minutos">00</div>
+        <strong>:</strong>
+        <div id="segundos">00</div>
+        <strong>:</strong>
+        <div id="mile">000</div>
+      </main>
+      <footer>
+        <button class="btn" onclick="tempo()" id="iniciar">Iniciar</button>
+        <button class="btn" onclick="pausar()" id="continua">Pausar</button>
+        <button class="btn" onclick="continuar()">continua</button>
+
+        <button class="btn" onclick="reset()" id="resete">Resete</button>
+        <button id="trocaCor">click</button>
+      </footer>
+
+      <script src="cronometro.js"></script>
+    </div>
+  </body>
+</html>
